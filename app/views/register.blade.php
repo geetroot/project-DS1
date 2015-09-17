@@ -55,7 +55,7 @@
 					</div>
 					<div class="form-group">
 						<label>Password</label> <input type="password"
-							class="form-control input-lg" id="password" name="password"
+							class="form-control input-lg" id="password"  name="password"
 							required="required">
 					</div>
 					<div class="form-group">

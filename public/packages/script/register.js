@@ -10,7 +10,7 @@ function registerUser(){
 		data : formData,
 		success : function(data) {
 			$('#saveBtn').attr('disabled', false).html('Register');
-			if(data.length!=0){
+			if(data!=0){
 				$('form#register-form').each(function() {
 					this.reset();
 				});
